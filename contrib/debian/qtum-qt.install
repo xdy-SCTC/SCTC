@@ -1,0 +1,6 @@
+usr/local/bin/sctc-qt usr/bin
+share/pixmaps/sctc32.xpm usr/share/pixmaps
+share/pixmaps/sctc16.xpm usr/share/pixmaps
+share/pixmaps/sctc128.png usr/share/pixmaps
+debian/sctc-qt.desktop usr/share/applications
+debian/sctc-qt.protocol usr/share/kde4/services/

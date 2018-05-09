@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bitcoin Core
+Comment=Connect to the Sctc P2P Network
+Exec=sctc-qt %u
+Terminal=false
+Type=Application
+Icon=sctc128
+MimeType=x-scheme-handler/sctc;
+Categories=Office;Finance;

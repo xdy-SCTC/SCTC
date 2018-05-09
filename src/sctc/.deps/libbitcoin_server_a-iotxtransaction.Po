@@ -1,0 +1,4 @@
+sctc/libbitcoin_server_a-sctctransaction.o: sctc/sctctransaction.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:
