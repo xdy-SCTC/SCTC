@@ -1,7 +1,7 @@
 What is Sctc?
 -------------
 
-Sctc is a decentralized blockchain project built on Bitcoin's UTXO model, with support for Ethereum Virtual Machine based smart contracts, and secured by a proof of stake consensus model. It achieves this through the revolutionary Account Abstraction Layer which allows the EVM to communicate with Sctc's Bitcoin-like UTXO blockchain. For more general information about Sctc as well as links to join our community, go to https://sctc.org
+Sctc is a decentralized blockchain project built on Bitcoin's UTXO model, with support for Ethereum Virtual Machine based smart contracts, and secured by a proof of stake consensus model. It achieves this through the revolutionary Account Abstraction Layer which allows the EVM to communicate with Sctc's Bitcoin-like UTXO blockchain. For more general information about Sctc as well as links to join our community, go to http://www.wlwsz.com/
 
 Welcome to the Sctc Ignition Main Network. This is the main network where the tokens hold value and should be guarded very carefully. If you are testing the network, or developing unstable software on Sctc, we highly recommend using either testnet or regtest mode. 
 
@@ -11,95 +11,6 @@ The major features of the Sctc network include:
 2. A Proof of Stake consensus system which is optimized for Sctc's contract model. Any user can stake and help to secure the network. There is no voting, master nodes, or minimum amount required. There have been transactions as small as 2 Sctc that have created blocks in the past. 
 3. The Decentralized Governance Protocol is completely implemented and functional, which allows certain network parameters to be modified without a fork or other network disruption. This currently controls parameters like block size, gas prices, etc. 
 4. Uses the UTXO transaction model and is compatible with Bitcoin, allowing for existing tooling and workflows to be used with Sctc. This allows for the infamous SPV protocol to be used which is ideal for light wallets on mobile phones and IoT devices.
-
-Note: Sctc Core is considered beta software. We make no warranties or guarantees of its security or stability.
-
-Sctc Documentation and Usage Resources
----------------
-
-These are some resources that might be helpful in understanding Sctc. Note that the unofficial documents are not created by the Sctc team.
-
-Basic usage resources:
-
-* [Official Sctc Usage Guide](https://github.com/sctcproject/sctc/wiki/Sctc-Wallet-Tutorial)
-* [Unofficial Sctc staking tutorial](https://steemit.com/sctc/@cryptominder/sctc-staking-tutorial-using-sctc-qt)
-* [Unofficial Sctc staking tutorial on Raspberry Pi](https://steemit.com/sctc/@cryptominder/sctc-staking-tutorial-using-sctcd-on-a-raspberry-pi-3)
-* [Unofficial guide for keeping your wallet safe](https://steemit.com/sctc/@cryptominder/encrypting-backing-up-and-restoring-your-sctc-wallet)
-* [Block explorer](https://explorer.sctc.org)
-* [Unofficial block explorer](https://sctcexplorer.io/)
-* [Unofficial Raspberry Pi Web UI](https://github.com/rpiwalletui/sctc-ui)
-
-Development resources:
-
-* [Deploying a custom token to Sctc](https://blog.sctc.org/sctc-custom-token-walkthrough-467d725fa27d)
-* [Early example faucet contract](http://earlz.net/view/2017/06/30/2144/the-sctc-sparknet-faucet)
-* [Unofficial Sctc Hello World tutorial](https://steemit.com/sctc/@cryptominder/quantum-sctc-blockchain-developer-tutorial-hello-world)
-* [Sctc Book - A Developer's Guide To SCTC](https://github.com/sctcproject/sctcbook)
-
-General Info about Sctc:
-
-* [Mainnet event AMA](https://www.reddit.com/r/Sctc/comments/6zs8t0/official_sctc_ama_thread_starts_at_10pm_beijing/)
-* [Sctc's PoS vs CASPER](https://www.reddit.com/r/Sctc/comments/788oa5/sctcs_pos_vs_casper_and_the_nothingatstake_problem/)
-* [Technical article explaining Sctc's PoS model in depth](http://earlz.net/view/2017/07/27/1904/the-missing-explanation-of-proof-of-stake-version)
-* [Unofficial What is Sctc article](https://storeofvalue.github.io/posts/what-is-sctc-without-the-bullshit/)
-
-Developer's Tools
------------------
-
-* Smart contract deployment tool
-  * https://github.com/sctcproject/solar
-* DApp JavaScript Library
-  * https://github.com/sctcproject/sctcjs
-* A toolkit for building sctc light wallets
-  * https://github.com/sctcproject/sctcjs-wallet
-* CORS sctcd RPC proxy for DApp
-  * https://github.com/sctcproject/sctcportal
-* Docker images for running sctc services
-  * https://github.com/sctcproject/sctc-docker
-* HTTP API that powers the block explorer and the SCTC web wallet
-  * https://github.com/sctcproject/insight-api
-
-
-What is Sctc Core?
-------------------
-
-Sctc Core is our primary mainnet wallet. It implements a full node and is capable of storing, validating, and distributing all history of the Sctc network. Sctc Core is considered the reference implementation for the Sctc network. 
-
-Sctc Core currently implements the following:
-
-* Sending/Receiving Sctc
-* Sending/Receiving QRC20 tokens on the Sctc network
-* Staking and creating blocks for the Sctc network
-* Creating and interacting with smart contracts
-* Running a full node for distributing the blockchain to other users
-* "Prune" mode, which minimizes disk usage
-* Regtest mode, which enables developers to very quickly build their own private Sctc network for Dapp testing
-* Compatibility with the Bitcoin Core set of RPC commands and APIs
-
-Alternative Wallets
--------------------
-
-Sctc Core uses a full node model, and thus requires downloading the entire blockchain. If you do not need the entire blockchain, and do not intend on developing smart contracts, it may be more ideal to use an alternative wallet such as one of our light wallets that can be synchronized in a matter of seconds. 
-
-### Sctc Electrum
-
-A light wallet that supports the Ledger hardware wallet and is based on the well known Electrum wallet software. 
-
-Download: https://github.com/sctcproject/sctc-electrum/releases
-
-### iOS and Android Wallets
-
-These wallets run on mobile devices and synchronize quickly. 
-
-Android Download: https://play.google.com/store/apps/details?id=org.sctc.wallet
-
-iOS Download: https://github.com/sctcproject/sctc-ios (open source, we are still working with Apple to get approval for their app store)
-
-### Ledger Chrome Wallet
-
-This light wallet runs in your Chrome browser as a browser extension. This wallet requires a Ledger device to use.
-
-How to install: https://ledger.zendesk.com/hc/en-us/articles/115003776913-How-to-install-and-use-Sctc-with-Ledger
 
 
 Building Sctc Core
